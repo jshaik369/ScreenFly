@@ -1,0 +1,30 @@
+# Core dependencies for ScreenFly desktop application
+numpy==1.24.3
+opencv-python==4.8.1.78
+pytesseract==0.3.10
+mss==9.0.1
+scipy==1.10.1
+Pillow==10.0.0
+
+# Streamlit dependencies
+streamlit==1.28.1
+streamlit-webrtc==0.45.1
+altair>=4.0
+pandas>=1.0
+plotly>=5.0
+
+# Additional utilities
+requests>=2.25.1
+psutil>=5.8.0
+watchdog>=2.1.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+flake8>=5.0.0
+black>=22.0.0
+
+# Optional Hugging Face deployment dependencies
+# Uncomment for HF Spaces deployment
+# gradio>=3.50.0
+# huggingface-hub>=0.16.0
